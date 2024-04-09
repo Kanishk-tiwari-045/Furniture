@@ -18,19 +18,19 @@ const Header = ({ topRef }) => {
           <h1
             className={
               theme === "light"
-                ? "sm:text-3xl text-5xl font-russonOne font-medium no-underline align-middle tracking-wide normal-case leading-normal text-dark"
-                : "sm:text-3xl text-5xl font-russonOne font-medium no-underline align-middle tracking-wide normal-case leading-normal text-white"
+                ? "sm:text-3xl text-5xl font-cave font-bold no-underline align-middle tracking-wide normal-case leading-normal text-dark"
+                : "sm:text-3xl text-5xl font-cave font-bold no-underline align-middle tracking-wide normal-case leading-normal text-white"
             }
           >
-            AxeL Brand new{" "}
+            AxeL{" "}
             <span
               className={
                 theme === "light"
-                  ? "sm:text-4xl text-dark text-6xl font-petitFormal font-bold"
-                  : "sm:text-4xl text-white text-6xl font-petitFormal font-bold"
+                  ? "sm:text-4xl text-dark text-5xl font-cave font-bold"
+                  : "sm:text-4xl text-white text-5xl font-cave font-bold"
               }
             >
-              Furniture
+            Furnitures
             </span>{" "}
             Mobile App
           </h1>
@@ -38,13 +38,11 @@ const Header = ({ topRef }) => {
             <p
               className={
                 theme === "light"
-                  ? "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-dark text-2xl"
-                  : "sm:text-lg w-4/5 font-inter font-medium no-underline align-middle tracking-wide normal-case text-white text-2xl"
+                  ? "sm:text-lg w-4/5 font-cave font-normal no-underline align-middle tracking-wide normal-case text-dark text-xl"
+                  : "sm:text-lg w-4/5 font-cave font-normal no-underline align-middle tracking-wide normal-case text-white text-xl"
               }
             >
-              Giving your home a propper makeover never was this easy. Modern
-              and stylish furniture for decent prices. Take a look what we offer
-              with simple button click.
+              Welcome to the future of interior design at your fingertips! Imagine a world where your dream home is just a tap away. Introducing the Furniture Mobile App, your ultimate companion in crafting spaces that reflect your unique style and personality.
             </p>
           </div>
           <div className="pb-20">
@@ -58,11 +56,11 @@ const Header = ({ topRef }) => {
             <h2
               className={
                 theme === "light"
-                  ? "sm:text-3xl text-5xl pb-4 font-russonOne font-medium no-underline align-middle tracking-wide normal-case leading-normal text-dark"
-                  : "sm:text-3xl text-5xl pb-4 font-russonOne font-medium no-underline align-middle tracking-wide normal-case leading-normal text-white"
+                  ? "sm:text-3xl text-4xl pb-4 font-cave font-bold no-underline align-middle tracking-wide normal-case leading-normal text-dark"
+                  : "sm:text-3xl text-4xl pb-4 font-cave font-bold no-underline align-middle tracking-wide normal-case leading-normal text-white"
               }
             >
-              Modern Design
+            Design Display
             </h2>
           </div>
           <img

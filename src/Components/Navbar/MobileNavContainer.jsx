@@ -4,36 +4,35 @@ import { Link } from "react-scroll";
 
 const MobileNavContainer = ({ name, link, setOpen }) => {
   return (
-    <div>
-      <div className="flex flex-col items-center py-2">
+    <div className="py-2">
+      <motion.div
+        className="flex flex-col items-center"
+        initial={{ opacity: 0, scaleY: 0 }} // initial position and opacity
+        animate={{ opacity: 1, scaleY: 1 }} // final position and opacity
+        transition={{ type: "tween", duration: 1}} // Adjust duration and delay here
+      >
         <Link
           to={link}
           spy={true}
           smooth={true}
           hashSpy={true}
-          offse={50}
+          offset={50}
           duration={500}
           isDynamic={true}
           ignoreCancelEvents={false}
           spyThrottle={500}
           onClick={() => setOpen(false)}
         >
-          <motion.div
-            className="flex flex-col items-center justify-center "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ type: "tween", duration: 1 }}
-          >
-            <div className="pt-4">
-              <h3 className="text-sm font-medium font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark">
-                {name}
-              </h3>
-            </div>
-          </motion.div>
+          <div className="flex flex-col items-center justify-center bg-white rounded-lg p-4">
+            <h3 className="text-sm font-medium font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark">
+              {name}
+            </h3>
+          </div>
         </Link>
-      </div>
+      </motion.div>
     </div>
   );
 };
 
 export default MobileNavContainer;
+

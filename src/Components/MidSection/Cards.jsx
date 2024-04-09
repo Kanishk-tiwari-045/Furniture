@@ -22,8 +22,8 @@ const Cards = () => {
         <h2
           className={
             theme === "light"
-              ? "sm:text-5xl text-dark text-6xl font-bold pt-20 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
-              : "sm:text-5xl text-white text-6xl font-bold pt-20 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
+              ? "sm:text-5xl text-dark text-5xl font-bold pt-20 no-underline font-cave align-middle tracking-wide normal-case leading-none cursor-pointer"
+              : "sm:text-5xl text-white text-5xl font-bold pt-20 no-underline font-cave align-middle tracking-wide normal-case leading-none cursor-pointer"
           }
         >
           Request a demo
@@ -31,8 +31,8 @@ const Cards = () => {
         <p
           className={
             theme === "light"
-              ? "sm:text-xl text-dark text-2xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
-              : "sm:text-xl text-white text-2xl font-normal pt-10 no-underline font-inter align-middle tracking-wide normal-case leading-none cursor-pointer"
+              ? "sm:text-xl text-dark text-2xl font-normal pt-10 no-underline font-cave align-middle tracking-wide normal-case leading-none cursor-pointer"
+              : "sm:text-xl text-white text-2xl font-normal pt-10 no-underline font-cave align-middle tracking-wide normal-case leading-none cursor-pointer"
           }
         >
           Explore all the nice stuff that AxeL is providing and much more...{" "}
@@ -55,25 +55,25 @@ const Cards = () => {
         </div>
       </div>
       <div className="sm:grid-cols-1 grid grid-cols-3 items-center gap-8 content-between w-full pt-32">
-        {cardData.map((item) => {
+      {cardData.map((item) => {
           return (
             <motion.div
               className="sm:pl-0 mx-auto pl-20"
               key={item.id}
               initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition={{ duration: 1.5 }}
+              animate="visible"
               variants={{
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
+              whileHover={{ scale: 1.3 }}
+              transition={{ duration: 0.5 }}
             >
               <Card
                 className={
                   item.id === "1"
-                    ? "w-80 bg-dark border border-white"
-                    : "w-80 bg-white"
+                    ? "w-80 bg-dark border border-white rounded-3xl"
+                    : "w-80 bg-white rounded-3xl"
                 }
               >
                 <CardBody className="text-center">
@@ -81,8 +81,8 @@ const Cards = () => {
                     variant="h5"
                     className={
                       item.id === "1"
-                        ? "mb-2 fonm-inter leading-normal no-underline align-middle tracking-wide normal-case text-white"
-                        : "mb-2 fonm-inter leading-normal no-underline align-middle tracking-wide normal-case text-dark"
+                        ? "mb-2 font-cave leading-normal no-underline align-middle tracking-wide normal-case text-white"
+                        : "mb-2 font-cave leading-normal no-underline align-middle tracking-wide normal-case text-dark"
                     }
                   >
                     {item.title}
@@ -90,8 +90,8 @@ const Cards = () => {
                   <Typography
                     className={
                       item.id === "1"
-                        ? "mb-2 fonm-inter font-light leading-normal no-underline align-middle tracking-wide normal-case h-32 text-white"
-                        : "mb-2 fonm-inter font-light  leading-normal no-underline align-middle tracking-wide normal-case h-32 text-dark"
+                        ? "mb-2 font-cave font-light leading-normal no-underline align-middle tracking-wide normal-case h-32 text-white"
+                        : "mb-2 font-cave font-light leading-normal no-underline align-middle tracking-wide normal-case h-32 text-dark"
                     }
                   >
                     {item.text}
@@ -105,8 +105,8 @@ const Cards = () => {
                     variant="small"
                     className={
                       item.id === "1"
-                        ? "text-center pb-2 font-inter font-light leading-normal no-underline align-middle hover:animate-pulse tracking-wide cursor-pointer text-white"
-                        : "text-center pb-2 font-inter font-light leading-normal no-underline align-middle hover:animate-pulse tracking-wide cursor-pointer text-dark"
+                        ? "text-center pb-2 font-cave font-light leading-normal no-underline align-middle hover:animate-pulse tracking-wide cursor-pointer text-white"
+                        : "text-center pb-2 font-cave font-light leading-normal no-underline align-middle hover:animate-pulse tracking-wide cursor-pointer text-dark"
                     }
                   >
                     See more

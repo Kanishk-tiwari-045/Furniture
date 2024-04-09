@@ -7,7 +7,9 @@ module.exports = withMT({
       fontFamily: {
         inter: ["Inter"],
         petitFormal: ["Petit Formal Script"],
-        russonOne: ["Russon One"],
+        russonOne: ["Russo One"],
+        josef: ["Josefin Sans"],
+        cave: ["Lexend"],
       },
       colors: {
         royalBlue: "#4169e1",

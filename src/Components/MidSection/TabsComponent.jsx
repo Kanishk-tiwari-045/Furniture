@@ -22,8 +22,8 @@ const TabsComponent = () => {
           <h1
             className={
               theme === "light"
-                ? "sm:text-4xl text-6xl pt-10 pb-4 font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                : "sm:text-4xl text-6xl pt-10 pb-4 font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
+                ? "sm:text-4xl text-5xl pt-10 pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                : "sm:text-4xl text-5xl pt-10 pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
             }
           >
             Features
@@ -31,8 +31,8 @@ const TabsComponent = () => {
           <p
             className={
               theme === "light"
-                ? "sm:text-xl text-2xl  pb-4 font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                : "sm:text-xl text-2xl  pb-4 font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
+                ? "sm:text-xl text-xl pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                : "sm:text-xl text-xl pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
             }
           >
             AxeL offers many great features. You can create your own room,
@@ -40,10 +40,10 @@ const TabsComponent = () => {
             and so much more. Take a snek peek at each of them.
           </p>
 
-          <TabsHeader className="sm:flex-col flex justify-center items-center content-center bg-gray-100">
+          <TabsHeader className="sm:flex-col flex justify-center gap-2 items-center content-center bg-gray-100">
             {tabsData.map(({ label, value }) => (
               <Tab className="" key={value} value={value}>
-                <p className="text-royalBlue font-inter leading-normal no-underline align-middle tracking-wide normal-case">
+                <p className="text-royalBlue font-cave font-normal leading-normal no-underline align-middle tracking-wide normal-case">
                   {label}
                 </p>
               </Tab>
@@ -60,13 +60,13 @@ const TabsComponent = () => {
                 <p
                   className={
                     theme === "light"
-                      ? "text-lg relative right-3 font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                      : "text-lg relative right-3 font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
+                      ? "text-lg relative right-3 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                      : "text-lg relative right-3 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
                   }
                 >
                   {desc}
                 </p>
-                <span className="text-royalBlue font-inter leading-normal no-underline align-middle tracking-wide normal-case relative cursor-pointer right-3 hover:animate-puls">
+                <span className="text-royalBlue font-cave leading-normal no-underline align-middle tracking-wide normal-case relative cursor-pointer right-3 hover:animate-puls">
                   {linkText}
                 </span>
               </TabPanel>

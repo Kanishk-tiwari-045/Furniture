@@ -9,15 +9,15 @@ const MidFilterSection = () => {
   const buttons = [
     {
       id: "1",
-      name: "Room1",
+      name: "1",
     },
     {
       id: "2",
-      name: "Room2",
+      name: "2",
     },
     {
       id: "3",
-      name: "Room3",
+      name: "3",
     },
   ];
   const { theme } = useContext(ThemeBgContext);
@@ -46,7 +46,7 @@ const MidFilterSection = () => {
           className="sm:pt-10 sm:w-full sm:pl-4 w-4/5 mx-auto pl-24"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 1.5 }}
           variants={{
             visible: { opacity: 1, scale: 1 },
@@ -56,8 +56,8 @@ const MidFilterSection = () => {
           <h2
             className={
               theme === "light"
-                ? "sm:text-3xl sm:w-full w-96 text-6xl font-bold font-inter no-underline aligin-middle tracking-wide normal-case leading-none text-dark"
-                : "sm:text-3xl sm:w-full w-96 text-6xl font-bold font-inter no-underline aligin-middle tracking-wide normal-case leading-none text-white"
+                ? "sm:text-2xl sm:w-full w-96 text-5xl font-bold font-cave no-underline aligin-middle tracking-wide normal-case leading-none text-dark"
+                : "sm:text-2xl sm:w-full w-96 text-5xl font-bold font-cave no-underline aligin-middle tracking-wide normal-case leading-none text-white"
             }
           >
             Check out some of the news

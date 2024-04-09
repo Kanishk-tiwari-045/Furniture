@@ -32,7 +32,7 @@ export const navbarData = [
   },
   {
     id: "6",
-    name: "Login",
+    name: "SignUp",
     link: "/",
   },
 ];
@@ -172,7 +172,7 @@ export const cardData = [
   },
   {
     id: "1",
-    title: "Room",
+    title: "Demo Room",
     text: "Customize your own Bedroom, LivingRoom, Kitchen, Office and much more. Anytime, in a matter of seconds.",
   },
   {

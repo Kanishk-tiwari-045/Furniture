@@ -12,7 +12,7 @@ const MidChild = ({ data, click }) => {
             <motion.div
               key={item.id}
               className="sm:pt-10 sm:right-2 relative flex flex-col z-10"
-              initial={{ scale: 0.8, opacity: 0 }}
+              initial={{ scale: 0.8, opacity: 1 }}
               animate={{
                 y: click ? 20 : 0,
                 x: click ? 20 : 0,
@@ -25,8 +25,8 @@ const MidChild = ({ data, click }) => {
                 <h3
                   className={
                     theme === "light"
-                      ? "sm:text-4xl text-6xl font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark pb-4"
-                      : "sm:text-4xl text-6xl font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-white pb-4"
+                      ? "sm:text-4xl text-5xl font-bold font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark pb-4"
+                      : "sm:text-4xl text-5xl font-bold font-cave no-underline align-middle tracking-wide normal-case leading-none text-white pb-4"
                   }
                 >
                   {item.title}
@@ -37,8 +37,8 @@ const MidChild = ({ data, click }) => {
                   <p
                     className={
                       theme === "light"
-                        ? "sm:text-2xl text-3xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                        : "sm:text-2xl text-3xl font-normal font-inter no-underline align-middle tracking-wide normal-case leading-none text-white"
+                        ? "sm:text-xl text-xl font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                        : "sm:text-xl text-xl font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
                     }
                   >
                     {item.text}
@@ -49,7 +49,7 @@ const MidChild = ({ data, click }) => {
                     className="w-full "
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: click ? "525px" : "525px", opacity: 1 }}
-                    transition={{ type: "tween", duration: 3 }}
+                    transition={{ type: "tween", duration: 1 }}
                     src={item.img}
                     alt={item.title}
                   ></motion.img>
