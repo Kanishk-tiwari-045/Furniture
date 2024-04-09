@@ -1,2 +1,3 @@
-[![Video Thumbnail](src/assets/images/Capture.png)(https://jklujaipur-my.sharepoint.com/:v:/g/personal/kanishktiwari_jklu_edu_in/EYNKRXS6NsJIv7VuKKZsHKsBcRt9_VGv3WLTS6Lk4F_8uA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SeFItj)]
+![image](src/assets/images/Capture.png)
+![Video](src/assets/images/React App - Google Chrome 2024-04-10 01-11-22.mp4)
 
