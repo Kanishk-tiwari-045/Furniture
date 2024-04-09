@@ -6,8 +6,6 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         inter: ["Inter"],
-        petitFormal: ["Petit Formal Script"],
-        russonOne: ["Russo One"],
         josef: ["Josefin Sans"],
         cave: ["Lexend"],
       },
