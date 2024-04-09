@@ -1,2 +1,2 @@
-![image](src/assets/Capture.png)
-![Video](https://jklujaipur-my.sharepoint.com/:v:/g/personal/kanishktiwari_jklu_edu_in/EYNKRXS6NsJIv7VuKKZsHKsBcRt9_VGv3WLTS6Lk4F_8uA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZFwMHs)
+![image](https://jklujaipur-my.sharepoint.com/:i:/g/personal/kanishktiwari_jklu_edu_in/EVKgbgWAEPFHkjedOisvZoUBCh1oqMcY7_tVURpNA2ybaA?e=kxxwkF)
+![Video](https://jklujaipur-my.sharepoint.com/:v:/g/personal/kanishktiwari_jklu_edu_in/EYNKRXS6NsJIv7VuKKZsHKsBcRt9_VGv3WLTS6Lk4F_8uA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4RgWjo)
