@@ -18,7 +18,7 @@ const NewsLetter = () => {
           <h2 className="sm:text-2xl w-full text-4xl pt-4 pb-4 font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-white pl-8">
             Sign up for our newsletter
           </h2>
-          <p className="sm:text-lg block font-josef font-light no-underline align-middle tracking-wide normal-case leading-none text-white text-xl pl-8 ">
+          <p className="sm:text-lg block font-cave font-light no-underline align-middle tracking-wide normal-case leading-none text-white text-xl pl-8 ">
             Join our newsletter and get news in your inbox every week!
           </p>
         </div>
