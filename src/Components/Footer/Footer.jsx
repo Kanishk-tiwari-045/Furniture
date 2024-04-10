@@ -31,13 +31,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="sm:pr-4 h-64">
-          <h3 className="text-dark font-inter font-medium text-lg no-underline align-middle tracking-wide normal-case">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
             Features
           </h3>
           {FooterData1.map((item) => {
             return (
               <div key={item.id}>
-                <p className="text-dark font-inter text-md font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>
@@ -45,13 +45,13 @@ const Footer = () => {
           })}
         </div>
         <div className="sm:pr-8 h-64">
-          <h3 className="text-dark font-inter font-medium text-lg no-underline align-middle tracking-wide normal-case">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
             Features
           </h3>
           {FooterData2.map((item) => {
             return (
               <div key={item.id}>
-                <p className="text-dark font-inter text-md font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>
@@ -59,13 +59,13 @@ const Footer = () => {
           })}
         </div>
         <div className="sm:pl-8 h-64">
-          <h3 className="text-dark font-inter font-medium text-lg no-underline align-middle tracking-wide normal-case">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
             Features
           </h3>
           {FooterData3.map((item) => {
             return (
               <div key={item.id}>
-                <p className="text-dark font-inter text-md font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>
@@ -74,17 +74,17 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <hr className="sm:w-full h-px w-4/5 bg-gray-400 opacity-50 outline-none border-none" />
+        <hr className="sm:w-full h-px w-4/5 bg-gray-400 opacity-80 outline-none border-none"/>
       </div>
       <div className="flex justify-around items-center py-6">
         <div>
-          <p className="sm:text-sm text-dark pb-2 font-inter font-medium cursor-pointer no-underline align-middle tracking-wide normal-case">
+          <p className="sm:text-sm text-dark pb-2 font-cave font-bold cursor-pointer no-underline align-middle tracking-wide normal-case">
             AxeL
           </p>
         </div>
         <div>
-          <p className="sm:text-xs text-dark pb-2 font-inter font-light cursor-pointer no-underline align-middle tracking-wide normal-case">
-            Copyright {year} page by Marko Web Dev
+          <p className="text-xs sm:text-sm text-dark pb-2 font-cave font-light cursor-pointer no-underline align-middle tracking-wide normal-case">
+            Copyright@{year} Kanishk tiwari
           </p>
         </div>
       </div>

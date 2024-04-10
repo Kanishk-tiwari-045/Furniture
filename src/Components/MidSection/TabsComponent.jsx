@@ -22,8 +22,8 @@ const TabsComponent = () => {
           <h1
             className={
               theme === "light"
-                ? "sm:text-4xl text-5xl pt-10 pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
-                : "sm:text-4xl text-5xl pt-10 pb-4 font-normal font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
+                ? "sm:text-4xl text-5xl pt-10 pb-4 font-bold font-cave no-underline align-middle tracking-wide normal-case leading-none text-dark"
+                : "sm:text-4xl text-5xl pt-10 pb-4 font-bold font-cave no-underline align-middle tracking-wide normal-case leading-none text-white"
             }
           >
             Features
