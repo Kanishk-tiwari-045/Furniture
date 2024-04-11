@@ -13,7 +13,7 @@ const Modal = ({ open, setOpen }) => {
   return (
     <div>
       <motion.div
-        className="bg-white fixed right-4 bottom-2 z-20 flex flex-col rounded-2xl"
+        className="bg-dark fixed right-4 bottom-2 z-20 flex flex-col rounded-2xl"
         initial={{ scale: 1, opacity: 0, height: 0, width: 0 }}
         animate={{
           x: open ? -30 : 0,
@@ -22,30 +22,27 @@ const Modal = ({ open, setOpen }) => {
           height: open && "375px",
           opacity: 1,
         }}
-        transition={{ type: "spring", duration: 2, ease: "easeInOut" }}
+        transition={{ type: "spring", duration: 1, ease: "easeInOut" }}
       >
         <motion.div
           className="pt-4 flex flex-col pl-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ type: "Tween", duration: 2 }}
+          transition={{ type: "Tween", duration: 1 }}
         >
-          <h5 className="cursor-pointer text-4xl text-blue-500 font-inter font-medium tracking-tight pt-4">
+          <h5 className="cursor-pointer text-4xl text-white font-inter font-medium tracking-tight pt-4">
             Hello There 🖐🏻
           </h5>
-          <p className="text-lg text-blue-500 font-inter font-medium tracking-tight pt-4">
+          <p className="text-lg text-white font-inter font-medium tracking-tight pt-4">
             Welcome to our website.
           </p>
-          <span className="text-md text-blue-500 font-inter font-medium tracking-tight pt-4">
-            Ask us anything.
-          </span>
           <div className="pt-8">
             <form onSubmit={handleSubmit}>
               <input
                 type="text"
                 name="message"
-                className="outline-none border-none text-black"
-                placeholder="Send us a message..."
+                className="outline-none bg-dark border-none text-white"
+                placeholder="Ask us anything..."
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></input>
