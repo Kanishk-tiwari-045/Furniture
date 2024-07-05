@@ -66,14 +66,14 @@ const Cards = () => {
                 visible: { opacity: 1, scale: 1 },
                 hidden: { opacity: 0, scale: 0 },
               }}
-              whileHover={{ scale: 1.3 }}
-              transition={{ duration: 0.5 }}
+              whileHover={{ scale: 1.15 }}
+              transition={{ duration: 0.3 }}
             >
               <Card
                 className={
                   item.id === "1"
-                    ? "w-80 bg-dark border border-white rounded-3xl"
-                    : "w-80 bg-white rounded-3xl"
+                    ? "sm:w-60 w-80 bg-dark border border-white rounded-3xl"
+                    : "sm:w-60 w-80 bg-white rounded-3xl"
                 }
               >
                 <CardBody className="text-center">

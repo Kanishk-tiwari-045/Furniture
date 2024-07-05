@@ -13,12 +13,12 @@ const NewsLetter = () => {
 
   return (
     <div className="flex items-center justify-center content-center justify-items-center relative">
-      <div className="sm:flex-col sm:py-10 bottom-14 h-full flex justify-evenly bg-darkBlue w-4/5 py-24 rounded-3xl translate-y-32 duration-700">
+      <div className="sm:flex-col sm:py-10 bottom-14 h-full flex justify-evenly bg-darkBlue w-4/5 py-24 rounded-3xl translate-y-20 duration-700">
         <div>
           <h2 className="sm:text-2xl w-full text-4xl pt-4 pb-4 font-bold font-inter no-underline align-middle tracking-wide normal-case leading-none text-white pl-8">
             Sign up for our newsletter
           </h2>
-          <p className="sm:text-lg block font-cave font-light no-underline align-middle tracking-wide normal-case leading-none text-white text-xl pl-8 ">
+          <p className="sm:text-sm block font-cave font-light no-underline align-middle tracking-wide normal-case leading-none text-white text-xl pl-8 ">
             Join our newsletter and get news in your inbox every week!
           </p>
         </div>

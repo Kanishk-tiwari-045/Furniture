@@ -10,8 +10,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <div>
-      <div className="sm:grid-cols-2 grid grid-cols-4 gap-0 items-center justify-items-center">
-        <div className="sm:w-full sm:pl-8 h-64 mx-auto pl-24">
+      <div className="sm:grid-cols-4 grid grid-cols-4 gap-0 sm:gap-5 items-center justify-items-center">
+        <div className="sm:w-full sm:pl-6 h-64 mx-auto pl-24" style={{ paddingTop: "42px" }}>
           <div>
             <img className="h-10 cursor-pointer" src={logo} alt="logo"></img>
           </div>
@@ -22,7 +22,7 @@ const Footer = () => {
               alt="apple-store"
             ></img>
           </div>
-          <div className="mt-5">
+          <div className="sm:mt-1 mt-5">
             <img
               className="h-8 cursor-pointer"
               src={googlePlay}
@@ -30,14 +30,14 @@ const Footer = () => {
             ></img>
           </div>
         </div>
-        <div className="sm:pr-4 h-64">
-          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
+        <div className="sm:pr-8 h-64">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case" style={{ paddingTop: "42px" }}>
             Features
           </h3>
           {FooterData1.map((item) => {
             return (
               <div key={item.id}>
-                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style={{ color: "slategray" }} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>
@@ -45,27 +45,27 @@ const Footer = () => {
           })}
         </div>
         <div className="sm:pr-8 h-64">
-          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case" style={{ paddingTop: "42px" }}>
             Features
           </h3>
           {FooterData2.map((item) => {
             return (
               <div key={item.id}>
-                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style={{ color: "slategray" }} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>
             );
           })}
         </div>
-        <div className="sm:pl-8 h-64">
-          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case">
+        <div className="sm:pr-8 h-64">
+          <h3 className="text-dark font-cave font-medium text-lg no-underline align-middle tracking-wide normal-case" style={{ paddingTop: "42px" }}>
             Features
           </h3>
           {FooterData3.map((item) => {
             return (
               <div key={item.id}>
-                <p style = {{color:'slategray'}} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
+                <p style={{ color: "slategray" }} className="font-cave text-sm font-normal cursor-pointer no-underline align-middle tracking-wide normal-case">
                   {item.text}
                 </p>
               </div>

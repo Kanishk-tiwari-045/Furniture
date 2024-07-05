@@ -58,10 +58,7 @@ const MidFilterSection = () => {
               theme === "light"
                 ? "sm:text-2xl sm:w-full w-96 text-5xl font-bold font-cave no-underline aligin-middle tracking-wide normal-case leading-none text-dark"
                 : "sm:text-2xl sm:w-full w-96 text-5xl font-bold font-cave no-underline aligin-middle tracking-wide normal-case leading-none text-white"
-            }
-          >
-            Check out some of the news
-          </h2>
+            }>Check out some of the news</h2>
           <MidButton
             buttons={buttons}
             filter={filterData}
